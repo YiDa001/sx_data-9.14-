@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7891a077-a220-42fc-b33c-440b35220c45" name="默认的" comment="" />
+    <list default="true" id="7891a077-a220-42fc-b33c-440b35220c45" name="默认的" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/components/page/Total.vue" afterPath="$PROJECT_DIR$/src/components/page/Total.vue" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -27,7 +30,7 @@
       <file leaf-file-name="protect.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/page/protect.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3690">
+            <state relative-caret-position="6150">
               <caret line="1116" column="32" lean-forward="false" selection-start-line="1116" selection-start-column="32" selection-end-line="1116" selection-end-column="32" />
               <folding>
                 <element signature="e#5600#11182#0" expanded="false" />
@@ -56,15 +59,20 @@
       <file leaf-file-name="Total.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/page/Total.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="574" column="25" lean-forward="false" selection-start-line="574" selection-start-column="25" selection-end-line="574" selection-end-column="25" />
+            <state relative-caret-position="339">
+              <caret line="755" column="0" lean-forward="true" selection-start-line="755" selection-start-column="0" selection-end-line="755" selection-end-column="0" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="e#4007#7874#0" expanded="false" />
-                <element signature="e#14403#14615#0" expanded="false" />
-                <element signature="e#19792#21974#0" expanded="false" />
-                <marker date="1537520234049" expanded="true" signature="13352:13664" ph="..." />
-                <marker date="1537520234049" expanded="true" signature="19109:19421" ph="..." />
+                <element signature="e#4712#5085#0" expanded="false" />
+                <element signature="e#5195#6068#0" expanded="false" />
+                <element signature="e#6365#7605#0" expanded="false" />
+                <element signature="e#13511#13723#0" expanded="false" />
+                <element signature="e#20264#23245#0" expanded="false" />
+                <element signature="e#21021#23203#0" expanded="false" />
+                <element signature="e#23388#26111#0" expanded="false" />
+                <marker date="1538043569016" expanded="true" signature="27112:27129" ph="..." />
+                <marker date="1538043569016" expanded="true" signature="27204:27773" ph="..." />
+                <marker date="1538043569016" expanded="true" signature="27904:27910" ph=" " />
+                <marker date="1538043569016" expanded="true" signature="28195:28201" ph=" " />
               </folding>
             </state>
           </provider>
@@ -83,12 +91,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>title_hr</find>
-      <find>lineStyle</find>
-      <find>dataTool</find>
-      <find>el-input--small</find>
-      <find>getItem('ms_username')</find>
-      <find>ms_usernameusr</find>
       <find>ms_username</find>
       <find>ruleForm</find>
       <find>admin</find>
@@ -106,13 +108,19 @@
       <find>2017</find>
       <find>dataList</find>
       <find>dateList</find>
-      <find>cons</find>
       <find>lunarData</find>
       <find>date</find>
       <find>userName</find>
       <find>protect</find>
       <find>get</find>
+      <find>value5</find>
+      <find>select_info</find>
+      <find>options4</find>
+      <find>label</find>
+      <find>cons</find>
       <find>console</find>
+      <find>chart_type</find>
+      <find>hall_humi</find>
     </findStrings>
     <replaceStrings>
       <replace>getItem('user').userName</replace>
@@ -122,6 +130,9 @@
       <dir>D:\前段开发资料\前端开发\data_combine\vue-manage-system-master</dir>
       <dir>D:\前段开发资料\前端开发\data_combine\sx_data(9.14)</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -174,6 +185,7 @@
     <option name="width" value="1374" />
     <option name="height" value="695" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -189,8 +201,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -252,16 +264,19 @@
       <workItem from="1537318777483" duration="22041000" />
       <workItem from="1537405361600" duration="24989000" />
       <workItem from="1537491639330" duration="22522000" />
+      <workItem from="1537837204104" duration="14477000" />
+      <workItem from="1537923641519" duration="22600000" />
+      <workItem from="1538010161941" duration="27357000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="268172000" />
+    <option name="totallyTimeSpent" value="332606000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21170084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21170084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -269,7 +284,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969843" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -316,7 +331,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="27" />
+      <option name="time" value="32" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -589,7 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -640,7 +654,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/page/protect.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3690">
+        <state relative-caret-position="6150">
           <caret line="1116" column="32" lean-forward="false" selection-start-line="1116" selection-start-column="32" selection-end-line="1116" selection-end-column="32" />
           <folding>
             <element signature="e#5600#11182#0" expanded="false" />
@@ -667,15 +681,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/page/Total.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="574" column="25" lean-forward="false" selection-start-line="574" selection-start-column="25" selection-end-line="574" selection-end-column="25" />
+        <state relative-caret-position="339">
+          <caret line="755" column="0" lean-forward="true" selection-start-line="755" selection-start-column="0" selection-end-line="755" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="e#4007#7874#0" expanded="false" />
-            <element signature="e#14403#14615#0" expanded="false" />
-            <element signature="e#19792#21974#0" expanded="false" />
-            <marker date="1537520234049" expanded="true" signature="13352:13664" ph="..." />
-            <marker date="1537520234049" expanded="true" signature="19109:19421" ph="..." />
+            <element signature="e#4712#5085#0" expanded="false" />
+            <element signature="e#5195#6068#0" expanded="false" />
+            <element signature="e#6365#7605#0" expanded="false" />
+            <element signature="e#13511#13723#0" expanded="false" />
+            <element signature="e#20264#23245#0" expanded="false" />
+            <element signature="e#21021#23203#0" expanded="false" />
+            <element signature="e#23388#26111#0" expanded="false" />
+            <marker date="1538043569016" expanded="true" signature="27112:27129" ph="..." />
+            <marker date="1538043569016" expanded="true" signature="27204:27773" ph="..." />
+            <marker date="1538043569016" expanded="true" signature="27904:27910" ph=" " />
+            <marker date="1538043569016" expanded="true" signature="28195:28201" ph=" " />
           </folding>
         </state>
       </provider>
