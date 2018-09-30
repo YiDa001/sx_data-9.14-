@@ -1187,6 +1187,20 @@
         width: 142px;
         float: right;
     }
+    .el-menu-item{
+        font-size: 18px;
+        padding-left: 0;
+        width: 196px;
+        height: 36px;
+        background-color: #f0f3fa !important;
+        margin: 20px 36px;
+        text-align: center;
+        border: none;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .el-row {
         margin-bottom: 20px;
     }

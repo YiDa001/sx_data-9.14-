@@ -173,10 +173,10 @@ a {
 /*自定义样式*/
 /*左侧边栏*/
 .el-menu-item{
-    font-size: 18px;
+    font-size: 18px !important;
     padding-left: 0;
-    width: 196px;
-    height: 36px;
+    width: 196px !important;
+    height: 36px !important;
     background-color: #f0f3fa !important;
     margin: 20px 36px;
     text-align: center;
