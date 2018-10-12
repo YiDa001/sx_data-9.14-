@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ce88029e-52e7-4374-aec0-9228831d6cb6" name="Localhost" url="http://192.168.7.4">
+        <fileTransfer port="0" mountedRoot="C:\Windows\system32\:\前段开发资料\前端开发\data_combine\sx_data(9.14)" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

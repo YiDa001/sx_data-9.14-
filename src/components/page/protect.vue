@@ -245,6 +245,13 @@
     [652, 800, 845, 885, 960],[666, 767.5, 815, 865, 920],[820, 850, 940, 980, 1070],[764, 800, 845, 885, 960],[735, 767.5, 815, 865, 920],
     ];
 
+    const url ='http://192.168.7.19:8282/login';
+    let para = {
+        'loginname':'admin',
+        'password':'123456',
+        'imgcode':'1'
+    };
+    import axios from 'axios';
     export default {
         name: 'protect',
         data() {
@@ -1095,7 +1102,7 @@
                 $container.height(now_height);
                 $nowEcharts.resize();                           //重置当前echarts
             },
-            changeHall:function (value) {
+            changeHall(value) {
                 if(value==1){
                     hall_humi = [62,64,66,64,62,60,63,68,70,61,70,72,74,60,65,
                         68,65,67,60,62,71,75,73,71,68,66,68,65,67,66];
@@ -1112,7 +1119,7 @@
                     return false;
                 }
             },
-            changeCO2:function (value) {
+            changeCO2(value) {
                 if(value==1){
                     CO2_data = [
                         [555, 850, 940, 980, 1070],[666, 800, 845, 885, 960],[777, 840, 855, 880, 940],[888, 767.5, 815, 865, 920],[756, 800, 845, 885, 960],
@@ -1163,7 +1170,26 @@
                 }
             },
             changeMonth(month){
-                console.log(month);
+
+                // $.post(url, para,function(data){
+                //     console.log(data);
+                //     // data["cookie"]
+                //     //this.$store.commit('set_token', data["Authentication-Token"]);
+                //
+                // });
+                axios.get('http://192.168.7.19:8282/api/tprotectequip/equipStatusCount/1',)
+                    .then(function (response) {
+                        console.log(response);
+                    })
+                    .catch(function (error) {
+                        console.log(error);
+                    });
+
+                // $.get('/api/tprotectequip/equipStatusCount/1',function(data){
+                //     console.log(data);
+                // })
+
+
             }
         }
     }
@@ -1346,6 +1372,12 @@
     .el-date-editor.el-input{
         width: 192px;
         right: 35%;
+    }
+    /*1366*768分辨率*/
+    @media screen and (max-width: 1366px) {
+        .el-col-8{
+
+        }
     }
 
 </style>

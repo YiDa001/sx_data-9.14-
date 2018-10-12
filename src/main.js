@@ -1,7 +1,6 @@
 import Vue from 'vue';
 import App from './App';
 import router from './router';
-import axios from 'axios';
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';    // 默认主题
 // import '../static/css/theme-green/index.css';       // 浅绿色主题
@@ -17,9 +16,10 @@ import dataTool from '../static/js/dataTool.min';
 Vue.prototype.dataTool = dataTool;
 
 //引入下拉框源文件
-
-
 Vue.use(ElementUI, {size: 'small'});
+
+import axios from 'axios';
+axios.defaults.withCredentials=true;
 Vue.prototype.$axios = axios;
 
 

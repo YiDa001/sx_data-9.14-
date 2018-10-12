@@ -19,6 +19,12 @@
 </template>
 
 <script>
+    const url ='http://192.168.7.19:8282/login';
+    let para = {
+        'loginname':'admin',
+        'password':'123456',
+        'imgcode':'1'
+    };
     export default {
         data: function(){
             return {
@@ -47,6 +53,12 @@
                         return false;
                     }
                 });
+                // $.post(url, para,function(data,textStatus,request){
+                //     console.log(1);
+                //     // data["cookie"]
+                //     //this.$store.commit('set_token', data["Authentication-Token"]);
+                //
+                // })
             }
         }
     }
